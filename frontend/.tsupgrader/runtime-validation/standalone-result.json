@@ -1,0 +1,27 @@
+{
+  "planHash": "2cb23676d19647100f26ea290aacc8ec5e5db41685cab2f41ec95a9f94e4d6ca",
+  "phase": "standalone",
+  "recordedAtUtc": "2026-11-23T04:40:35.9460133Z",
+  "retryCount": 2,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": false,
+    "setupDurationMs": 24906,
+    "setupFailureOutput": "setup step 0 \u0027npm\u0027 failed (exit=-4082, timedOut=False)\r\nnpm error code EBUSY\r\nnpm error syscall rmdir\r\nnpm error path C:\\Users\\PATRICK\\Desktop\\Proyectos\\ritech-export-manager\\frontend\\node_modules\\resolve\r\nnpm error errno -4082\r\nnpm error EBUSY: resource busy or locked, rmdir \u0027C:\\Users\\PATRICK\\Desktop\\Proyectos\\ritech-export-manager\\frontend\\node_modules\\resolve\u0027\r\nnpm error A complete log of this run can be found in: C:\\Users\\PATRICK\\AppData\\Local\\npm-cache\\_logs\\2026-11-23T04_40_14_405Z-debug-0.log\r\n",
+    "assertions": [],
+    "executions": [
+      {
+        "source": "setup[0]",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "ci"
+        ],
+        "cwd": "C:\\Users\\PATRICK\\Desktop\\Proyectos\\ritech-export-manager\\frontend",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      }
+    ]
+  }
+}
